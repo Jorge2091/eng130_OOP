@@ -14,4 +14,9 @@ OOP stand for object-oriented programming is a data structure or software design
 - easily upgradable or scalable due to having the functions independently. These functions can just be upgraded individually and will take effect to all programs that are using the functions and therefore don't need to go to all of them individually.
 - 
 
+## OOP code along diagram
 <img src="./images/img.png"/>
+
+- step 1: create animal.py as parent
+- step 2: create reptile.py as a child to inherit - abstract etc.
+- step 3: 
