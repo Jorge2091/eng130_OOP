@@ -13,3 +13,5 @@ OOP stand for object-oriented programming is a data structure or software design
 <br/>This will increase the productivity of programming
 - easily upgradable or scalable due to having the functions independently. These functions can just be upgraded individually and will take effect to all programs that are using the functions and therefore don't need to go to all of them individually.
 - 
+
+<img src="./images/img.png"/>
