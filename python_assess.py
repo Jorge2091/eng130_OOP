@@ -11,12 +11,10 @@ def largest(numbers):
 def is_twin(a, b):
     a = a.lower()
     b = b.lower()
-    check = True
-    for letter in b:
-        if a.find(letter) == -1:
-            check = False
-            break
-    return check
+    if sorted(a) == sorted(b):
+        return True
+    else:
+        return False
 
 def password(passwords):
     if len(passwords)<5:
@@ -41,4 +39,14 @@ def find_smallest_interval(lists):
             last = number
             n += 1
     return last_interval
+
+def odd_even_counter(numbers):
+    odd = []
+    even = []
+    for x in range(0, numbers+1):
+        if x%2==0:
+            even.append(x)
+        else:
+            odd.append(x)
+    return [sum(even), sum(odd)]
 
